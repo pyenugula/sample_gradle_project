@@ -16,5 +16,10 @@ print"Hello world!"
         println "I'm Gradle"
     }
 }
+task count {
+    doLast {
+        4.times { print "$it " }
+    }
+}
 
 
