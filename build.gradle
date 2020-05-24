@@ -9,3 +9,9 @@ task hello{
 print"Hello world!"
 
 }
+task anotherTask  {
+
+    println 'This is another task'
+  }
+
+
