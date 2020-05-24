@@ -13,5 +13,11 @@ task anotherTask  {
 
     println 'This is another task'
   }
+  task intro {
+    dependsOn hello
+    doLast {
+        println "I'm Gradle"
+    }
+}
 
 
